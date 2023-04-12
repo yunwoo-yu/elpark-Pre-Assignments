@@ -12,8 +12,6 @@ function Home() {
     el['im:name'].label.toLowerCase().includes(inputValue.toLowerCase())
   );
 
-  console.log(musicListData);
-
   return (
     <Layout copyright={musicListData?.rights.label} title={musicListData?.title.label}>
       <section className={styles.contentWrapper}>

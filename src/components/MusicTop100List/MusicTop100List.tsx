@@ -22,7 +22,9 @@ function MusicTop100List({ data, queryText }: Props) {
               <div className={styles.albumTitle}>
                 {highlightedText({ text: el['im:name'].label, query: queryText })}
               </div>
-              <div className={styles.artistName}>{el['im:artist'].label}</div>
+              <div className={styles.artistName}>
+                <p>{el['im:artist'].label}</p>
+              </div>
               <div className={styles.price}>{el['im:price'].label}</div>
             </Link>
           </li>
