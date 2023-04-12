@@ -1,0 +1,27 @@
+.footer {
+  width: 100%;
+  min-height: 100px;
+  border-top: 1px solid #f2f2f2;
+  padding: 24px;
+}
+
+.footerWrapper {
+  max-width: 1000px;
+  width: 100%;
+  min-height: 100px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerTitle {
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.copyright {
+  font-size: 14px;
+}
