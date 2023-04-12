@@ -1,0 +1,28 @@
+.itemWrapper {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.textWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title {
+  font-size: 32px;
+}
+
+.artist {
+  font-size: 22px;
+}
+
+.category,
+.days,
+.price {
+  margin-top: 4px;
+  font-size: 15px;
+}
