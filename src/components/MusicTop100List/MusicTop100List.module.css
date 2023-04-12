@@ -1,0 +1,53 @@
+.musicList {
+  width: 100%;
+}
+
+.musicList > .musicItem:hover {
+  background-color: #f2f2f2;
+}
+
+.musicList > .musicItem > .musicLink {
+  display: flex;
+  height: inherit;
+  padding: 8px;
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 15px;
+}
+
+.musicLink > div {
+  display: flex;
+  align-items: center;
+}
+
+.ranking {
+  width: 10px;
+  margin: 0 30px 0 20px;
+}
+
+.albumImg {
+  width: 70px;
+
+  margin-right: 30px;
+}
+
+.albumImg > img {
+  width: 100%;
+  max-width: 60px;
+  border-radius: 8px;
+}
+
+.albumTitle {
+  width: 450px;
+  margin-right: 80px;
+  line-height: 1.2;
+}
+
+.artistName {
+  width: 250px;
+  margin-right: 30px;
+  line-height: 1.2;
+}
+
+.price {
+  width: 80px;
+}
