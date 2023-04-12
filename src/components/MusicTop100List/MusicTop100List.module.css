@@ -14,7 +14,7 @@
   font-size: 15px;
 }
 
-.musicLink > div {
+.musicLink div {
   display: flex;
   align-items: center;
 }
@@ -26,7 +26,6 @@
 
 .albumImg {
   width: 70px;
-
   margin-right: 30px;
 }
 
@@ -50,4 +49,76 @@
 
 .price {
   width: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .musicList > .musicItem > .musicLink {
+    font-size: 14px;
+    padding: 4px;
+  }
+  .ranking {
+    width: 10px;
+    margin: 0 15px 0 10px;
+  }
+  .albumImg {
+    width: 50px;
+    margin-right: 15px;
+  }
+
+  .albumTitle {
+    width: 200px;
+    margin-right: 60px;
+  }
+
+  .albumTitle > span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .albumTitle > p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .artistName {
+    width: 80px;
+  }
+
+  .artistName > p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .price {
+    width: 50px;
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .ranking {
+    width: 10px;
+    margin: 0 10px 0 0px;
+  }
+  .albumImg {
+    flex-grow: 0;
+  }
+
+  .albumTitle {
+    width: 80px;
+    flex: 2 1 auto;
+    margin-right: 15px;
+  }
+
+  .artistName {
+    flex: 1 1 auto;
+    margin-right: 0;
+  }
+
+  .musicLink div.price {
+    display: none;
+  }
 }

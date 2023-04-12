@@ -14,3 +14,9 @@
   margin: 18px 0;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .contentWrapper {
+    padding: 0 12px;
+  }
+}
