@@ -1,0 +1,14 @@
+.contentWrapper {
+  max-width: 1000px;
+  min-height: 700px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-size: 24px;
+  margin: 18px 0;
+  text-align: center;
+}
