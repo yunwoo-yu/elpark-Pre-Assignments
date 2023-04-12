@@ -1,0 +1,16 @@
+.contentWrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.updateDay {
+  font-size: 18px;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  margin: 18px 0;
+  text-align: center;
+}
